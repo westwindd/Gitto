@@ -4,7 +4,6 @@
         <li class="navbar__item" v-for="item in menuItems" :key="item.label">
           <a href="#" class="navbar__link">
             <i :data-feather="item.icon" class="navbar__icon"></i>
-            <span class="navbar__label">{{ item.label }}</span>
           </a>
         </li>
       </ul>
@@ -44,7 +43,7 @@
 
 $borderRadius: 10px;
 $spacer: 1rem;
-$primary: #406ff3;
+$primary: #133C55;
 $text: #6a778e;
 $linkHeight: $spacer * 3.5;
 $timing: 250ms;
@@ -60,7 +59,7 @@ body {
   position: fixed;
   top: $spacer;
   left: $spacer;
-  background: #fff;
+  background: #1c1c20;
   border-radius: $borderRadius;
   padding: $spacer 0;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);

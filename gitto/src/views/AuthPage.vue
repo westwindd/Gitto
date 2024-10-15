@@ -59,7 +59,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #02074A; /* Gradient from black to dark blue */
+  background: #212529; /* Gradient from black to dark blue */
   color: #ffffff;
 }
 
@@ -69,11 +69,11 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, #000011, #0b1c3b); /* Gradient from black to dark blue */
+  background: linear-gradient(to bottom, #000011, #212529); /* Gradient from black to dark blue */
 }
 
 .form-container {
-  background-color: #02074A;
+  background-color: #212529;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   position: absolute;
@@ -120,7 +120,7 @@ html, body {
 }
 
 .overlay {
-  background: linear-gradient(to left, #010138, #01050e); /* Gradient from black to dark blue */
+  background: linear-gradient(to left, #0a0a0b, #121517); /* Gradient from black to dark blue */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -169,7 +169,7 @@ html, body {
 }
 
 .ghost {
-  background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradient background */
+  background: linear-gradient(to right, #161a1d, #212529); /* Gradient background */
   border: none;
   color: #ffffff;
   margin: 1rem;
@@ -182,7 +182,7 @@ html, body {
 }
 
 .ghost:hover {
-  background: linear-gradient(to right, #2a5298, #1e3c72); /* Reverse gradient on hover */
+  background: linear-gradient(to right, #161a1d, #212529); /* Reverse gradient on hover */
   transform: scale(1.05); /* Slightly enlarge on hover */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
 }

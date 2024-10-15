@@ -22,7 +22,7 @@ export default {
 }
 
 .form {
-  background: #02074A; /* Gradient from black to dark blue */
+  background: #212529; /* Gradient from black to dark blue */
   padding: 0 50px;
   height: 100%;
   display: flex;
@@ -62,7 +62,7 @@ button {
   padding: 15px 20px;
   margin: 10px 0;
   width: 50%;
-  background: #1e3c72; /* Dark blue button background */
+  background: linear-gradient(to right, #161a1d, #121416); /* Reverse gradient on hover */
   color: white;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.3s ease;
@@ -71,7 +71,6 @@ button {
 }
 
 button:hover {
-  background: #2a5298; /* Lighter blue on hover */
   transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
